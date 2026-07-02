@@ -33,7 +33,7 @@ SMALL_CAPS = str.maketrans(
     "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ"
 )
 
-WELCOME_IMAGE = "https://files.catbox.moe/3v075h.jpg"
+WELCOME_IMAGE = "https://files.catbox.moe/s2mwxq.jpg"
 
 def sc(text: str) -> str:
     return text.lower().translate(SMALL_CAPS)
